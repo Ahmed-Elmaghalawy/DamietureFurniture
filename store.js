@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nameAr: 'أريكة صالون فاخرة',
       category: 'salon',
       price: 18000,
-      image: '_furniture_pictures/salon/file (1).jpg',
+      image: '_furniture_pictures/salon/file_1.jpg',
       featured: true,
       whatsappMsg: 'I am interested in the Luxury Salon Sofa'
     },
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nameAr: 'طقم طعام مودرن',
       category: 'dinning',
       price: 12000,
-      image: '_furniture_pictures/dinning/file (1).jpg',
+      image: '_furniture_pictures/dinning/file_1.jpg',
       featured: true,
       whatsappMsg: 'I am interested in the Modern Dining Set'
     },
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nameAr: 'جناح غرفة نوم ملكي',
       category: 'bedrooms',
       price: 25000,
-      image: '_furniture_pictures/bedrooms/file (1).jpg',
+      image: '_furniture_pictures/bedrooms/file_1.jpg',
       featured: true,
       whatsappMsg: 'I am interested in the Royal Bedroom Suite'
     },
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nameAr: 'وحدة تلفاز أنيقة',
       category: 'tv_tables',
       price: 4500,
-      image: '_furniture_pictures/tv_tables/file (1).jpg',
+      image: '_furniture_pictures/tv_tables/file_1.jpg',
       featured: false,
       whatsappMsg: 'I am interested in the Sleek TV Unit'
     },
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nameAr: 'خزانة أحذية كلاسيكية',
       category: 'shoe_cabinets',
       price: 3200,
-      image: '_furniture_pictures/shoe_cabinets/file (1).jpg',
+      image: '_furniture_pictures/shoe_cabinets/file_1.jpg',
       featured: false,
       whatsappMsg: 'I am interested in the Classic Shoe Cabinet'
     },
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nameAr: 'سرير أطفال طابقين',
       category: 'children',
       price: 8500,
-      image: '_furniture_pictures/children/file (1).jpg',
+      image: '_furniture_pictures/children/file_1.jpg',
       featured: true,
       whatsappMsg: 'I am interested in the Kids Bunk Bed'
     },
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nameAr: 'كرسي صالون مخملي',
       category: 'salon',
       price: 5500,
-      image: '_furniture_pictures/salon/file (1).jpg',
+      image: '_furniture_pictures/salon/file_1.jpg',
       featured: false,
       whatsappMsg: 'I am interested in the Velvet Salon Armchair'
     },
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nameAr: 'طاولة طعام خشبية',
       category: 'dinning',
       price: 9000,
-      image: '_furniture_pictures/dinning/file (1).jpg',
+      image: '_furniture_pictures/dinning/file_1.jpg',
       featured: false,
       whatsappMsg: 'I am interested in the Wooden Dining Table'
     }
