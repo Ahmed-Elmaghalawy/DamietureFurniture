@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store | Damieture Furniture | دميتشر أثاث</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-white text-slate-900 dark:bg-slate-950 dark:text-white" data-lang="en">
+    <header class="sticky top-0 z-50 border-b border-slate-200/50 dark:border-red-800/30 bg-white/70 dark:bg-slate-950/70 backdrop-blur-3xl shadow-sm/50">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <a href="index.html" class="flex items-center gap-3 font-semibold text-slate-900 dark:text-white hover:opacity-80 transition-opacity">
+          <img src="logo_transparent_background.png" alt="Damieture logo" class="h-12 w-auto object-contain object-left" />
+          <div>
+            <p class="text-base font-bold" data-en="Damieture Furniture" data-ar="دميتشر أثاث">Damieture Furniture</p>
+            <p class="text-xs text-slate-500 dark:text-slate-400" data-en="Premium Damietta Showroom" data-ar="معرض دمياط الفاخر">Premium Damietta Showroom</p>
+          </div>
+        </a>
+
+        <nav class="hidden items-center gap-8 sm:flex">
+          <a href="index.html#showroom" class="text-sm font-medium text-slate-600 dark:text-slate-300 transition-colors hover:text-red-600 dark:hover:text-red-500" data-en="Showroom" data-ar="المعرض">Showroom</a>
+          <a href="store.html" class="text-sm font-medium text-red-600 dark:text-red-500" data-en="Store" data-ar="المتجر">Store</a>
+          <a href="index.html#gallery" class="text-sm font-medium text-slate-600 dark:text-slate-300 transition-colors hover:text-red-600 dark:hover:text-red-500" data-en="Gallery" data-ar="المعرض الفوتوغرافي">Gallery</a>
+          <a href="index.html#about" class="text-sm font-medium text-slate-600 dark:text-slate-300 transition-colors hover:text-red-600 dark:hover:text-red-500" data-en="About" data-ar="حول">About</a>
+          <a href="index.html#contact" class="text-sm font-medium text-slate-600 dark:text-slate-300 transition-colors hover:text-red-600 dark:hover:text-red-500" data-en="Contact" data-ar="التواصل">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-2">
+          <button id="langToggle" class="glass-button p-3 text-lg" title="Toggle language" aria-label="Toggle language">
+            <span id="langFlag">🇬🇧</span>
+          </button>
+          <button id="themeToggle" class="glass-button p-3 text-lg" title="Toggle dark mode" aria-label="Toggle dark mode">
+            <span id="themeIcon">🌙</span>
+          </button>
+          <button id="mobileMenuButton" class="inline-flex items-center justify-center glass-button p-2 sm:hidden">
+            <span class="sr-only">Open menu</span>
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobileMenu" class="hidden border-t border-slate-200/50 dark:border-red-800/30 bg-white/95 dark:bg-slate-950/95 backdrop-blur-lg sm:hidden fade-in-out">
+        <div class="space-y-1 px-4 py-4">
+          <a href="index.html#showroom" class="block rounded-xl px-3 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-900 transition-colors" data-en="Showroom" data-ar="المعرض">Showroom</a>
+          <a href="store.html" class="block rounded-xl px-3 py-2 text-sm font-medium text-red-700 dark:text-red-400 bg-red-50 dark:bg-slate-900" data-en="Store" data-ar="المتجر">Store</a>
+          <a href="index.html#gallery" class="block rounded-xl px-3 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-900 transition-colors" data-en="Gallery" data-ar="المعرض الفوتوغرافي">Gallery</a>
+          <a href="index.html#about" class="block rounded-xl px-3 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-900 transition-colors" data-en="About" data-ar="حول">About</a>
+          <a href="index.html#contact" class="block rounded-xl px-3 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-900 transition-colors" data-en="Contact" data-ar="التواصل">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="fade-in">
+      <!-- STORE HEADER -->
+      <section class="relative overflow-hidden bg-gradient-to-br from-white via-slate-50 to-slate-100 dark:from-slate-950 dark:via-black dark:to-slate-900">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(239,68,68,0.08),_transparent_40%),radial-gradient(circle_at_bottom_right,_rgba(239,68,68,0.05),_transparent_35%)]"></div>
+        <div class="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-red-600 dark:text-red-500" data-en="Online Store" data-ar="المتجر الإلكتروني">Online Store</p>
+            <h1 class="mt-4 text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl xl:text-6xl" data-en="Browse Our Collection" data-ar="استعرض مجموعتنا">Browse Our Collection</h1>
+            <p class="mt-6 max-w-2xl mx-auto text-lg leading-8 text-slate-600 dark:text-slate-300" data-en="Discover premium furniture pieces from Damieture's showroom. Click any item to inquire via WhatsApp and get 45% discount!" data-ar="اكتشف قطع الأثاث الفاخرة من معرض دميتشر. انقر على أي عنصر للاستفسار عبر WhatsApp واحصل على خصم 45%!">Discover premium furniture pieces from Damieture's showroom.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FILTERS & SEARCH -->
+      <section class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="glass-card p-6 mb-8">
+          <div class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+            <!-- Search -->
+            <div class="flex-1 max-w-md">
+              <div class="relative">
+                <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                <input type="text" id="searchInput" placeholder="Search furniture..." class="w-full rounded-xl border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-800 pl-10 pr-4 py-3 text-slate-900 dark:text-white outline-none transition-all duration-300 focus:border-red-500 focus:ring-2 focus:ring-red-500/20" data-en="Search furniture..." data-ar="البحث عن الأثاث..." />
+              </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="flex flex-wrap gap-4">
+              <!-- Category Filter -->
+              <div class="relative">
+                <button id="categoryFilterBtn" class="flex items-center gap-2 rounded-xl border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-800 px-4 py-3 text-slate-900 dark:text-white transition-all duration-300 hover:border-red-500 focus:border-red-500 focus:ring-2 focus:ring-red-500/20">
+                  <span data-en="All Categories" data-ar="جميع الفئات">All Categories</span>
+                  <i class="fas fa-chevron-down text-sm"></i>
+                </button>
+                <div id="categoryDropdown" class="absolute top-full left-0 z-10 mt-2 w-56 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-lg opacity-0 invisible transition-all duration-300">
+                  <div class="p-2">
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-category="all" data-en="All Categories" data-ar="جميع الفئات">All Categories</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-category="salon" data-en="Salon Collection" data-ar="مجموعة الصالون">Salon Collection</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-category="dinning" data-en="Dining Room" data-ar="غرفة الطعام">Dining Room</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-category="bedrooms" data-en="Bedroom Suites" data-ar="مجموعات غرفة النوم">Bedroom Suites</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-category="tv_tables" data-en="Media Units" data-ar="وحدات الوسائط">Media Units</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-category="shoe_cabinets" data-en="Entryway Pieces" data-ar="قطع المدخل">Entryway Pieces</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-category="children" data-en="Kids & Teens" data-ar="الأطفال والمراهقون">Kids & Teens</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Price Filter -->
+              <div class="relative">
+                <button id="priceFilterBtn" class="flex items-center gap-2 rounded-xl border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-800 px-4 py-3 text-slate-900 dark:text-white transition-all duration-300 hover:border-red-500 focus:border-red-500 focus:ring-2 focus:ring-red-500/20">
+                  <span data-en="All Prices" data-ar="جميع الأسعار">All Prices</span>
+                  <i class="fas fa-chevron-down text-sm"></i>
+                </button>
+                <div id="priceDropdown" class="absolute top-full left-0 z-10 mt-2 w-48 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-lg opacity-0 invisible transition-all duration-300">
+                  <div class="p-2">
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-price="all" data-en="All Prices" data-ar="جميع الأسعار">All Prices</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-price="budget" data-en="Budget (Under 5,000 EGP)" data-ar="الاقتصادي (أقل من 5,000 جنيه)">Budget (Under 5,000 EGP)</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-price="mid" data-en="Mid-Range (5,000 - 15,000 EGP)" data-ar="متوسط (5,000 - 15,000 جنيه)">Mid-Range (5,000 - 15,000 EGP)</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-price="premium" data-en="Premium (Over 15,000 EGP)" data-ar="فاخر (أكثر من 15,000 جنيه)">Premium (Over 15,000 EGP)</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sort -->
+              <div class="relative">
+                <button id="sortBtn" class="flex items-center gap-2 rounded-xl border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-800 px-4 py-3 text-slate-900 dark:text-white transition-all duration-300 hover:border-red-500 focus:border-red-500 focus:ring-2 focus:ring-red-500/20">
+                  <span data-en="Sort by" data-ar="ترتيب حسب">Sort by</span>
+                  <i class="fas fa-chevron-down text-sm"></i>
+                </button>
+                <div id="sortDropdown" class="absolute top-full left-0 z-10 mt-2 w-48 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-lg opacity-0 invisible transition-all duration-300">
+                  <div class="p-2">
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-sort="featured" data-en="Featured" data-ar="المميز">Featured</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-sort="name" data-en="Name (A-Z)" data-ar="الاسم (أ-ي)">Name (A-Z)</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-sort="price-low" data-en="Price (Low to High)" data-ar="السعر (من الأقل للأعلى)">Price (Low to High)</button>
+                    <button class="w-full text-left px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-red-50 dark:hover:bg-slate-700 rounded-lg transition-colors" data-sort="price-high" data-en="Price (High to Low)" data-ar="السعر (من الأعلى للأقل)">Price (High to Low)</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS GRID -->
+      <section class="mx-auto max-w-7xl px-4 pb-24 sm:px-6 lg:px-8">
+        <div id="productsGrid" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <!-- Products will be populated by JavaScript -->
+        </div>
+
+        <!-- Load More Button -->
+        <div class="mt-12 text-center">
+          <button id="loadMoreBtn" class="glass-button-primary" data-en="Load More Products" data-ar="تحميل المزيد من المنتجات">Load More Products</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200/50 dark:border-slate-800/50 bg-white dark:bg-slate-950 py-12">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 mb-8">
+          <div>
+            <h3 class="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-wider" data-en="Company" data-ar="الشركة">Company</h3>
+            <ul class="mt-4 space-y-2">
+              <li><a href="index.html#about" class="text-sm text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="About Us" data-ar="حول لنا">About Us</a></li>
+              <li><a href="store.html" class="text-sm text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="Our Collections" data-ar="مجموعاتنا">Our Collections</a></li>
+              <li><a href="index.html#contact" class="text-sm text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="Contact" data-ar="التواصل">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-wider" data-en="Support" data-ar="الدعم">Support</h3>
+            <ul class="mt-4 space-y-2">
+              <li><a href="#" class="text-sm text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="Delivery Info" data-ar="معلومات التسليم">Delivery Info</a></li>
+              <li><a href="#" class="text-sm text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="FAQ" data-ar="الأسئلة الشائعة">FAQ</a></li>
+              <li><a href="#" class="text-sm text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="Returns" data-ar="العودة">Returns</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-wider" data-en="Showroom" data-ar="المعرض">Showroom</h3>
+            <ul class="mt-4 space-y-2">
+              <li><a href="#" class="text-sm text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="Hours" data-ar="الساعات">Hours</a></li>
+              <li><a href="tel:+201000806060" class="text-sm text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors">+20 10 00806060</a></li>
+              <li><a href="index.html#contact" class="text-sm text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="Directions" data-ar="الاتجاهات">Directions</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-wider" data-en="Follow Us" data-ar="تابعنا">Follow Us</h3>
+            <div class="mt-4 flex items-center gap-4">
+              <a href="https://www.facebook.com/Damieture" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300" title="Facebook">
+                <i class="fab fa-facebook-f text-lg"></i>
+              </a>
+              <a href="https://wa.me/201000806060" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-green-100 dark:hover:bg-green-900 hover:text-green-600 dark:hover:text-green-400 transition-all duration-300" title="WhatsApp">
+                <i class="fab fa-whatsapp text-lg"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-pink-100 dark:hover:bg-pink-900 hover:text-pink-600 dark:hover:text-pink-400 transition-all duration-300" title="Instagram">
+                <i class="fab fa-instagram text-lg"></i>
+              </a>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-red-100 dark:hover:bg-red-900 hover:text-red-600 dark:hover:text-red-400 transition-all duration-300" title="YouTube">
+                <i class="fab fa-youtube text-lg"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-slate-200/50 dark:border-slate-800/50 pt-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
+          <p class="text-sm text-slate-600 dark:text-slate-400" data-en="© 2026 Damieture Furniture. All rights reserved." data-ar="© 2026 دميتشر أثاث. جميع الحقوق محفوظة.">© 2026 Damieture Furniture. All rights reserved.</p>
+          <div class="flex items-center gap-6 text-sm">
+            <a href="#" class="text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="Privacy Policy" data-ar="سياسة الخصوصية">Privacy Policy</a>
+            <a href="#" class="text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors" data-en="Terms" data-ar="الشروط">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="store.js"></script>
+  </body>
+</html>
